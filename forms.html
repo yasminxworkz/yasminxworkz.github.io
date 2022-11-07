@@ -12,25 +12,29 @@
     <form>
         <div>
         <label>Enter First Name</label>
-        <input type="text" name="First Name" placeholder="Enter First Name">
+        <input type="text" name="First Name" placeholder="Enter First Name"required minlength="2"maxlength="12">
     </div>
         <br>
     <div>
         <label>Enter Last Name</label>
-        <input type="text" name="Last Name"placeholder="Enter Last Name">
+        <input type="text" name="Last Name"placeholder="Enter Last Name"requiredminlength="4"maxlength="14">
     </div>
     <br>
-
+    <div>
+        <label>Enter Age</label>
+        <input type="number" name="age"placeholder="Enter Age"required>
+    </div>
+      <br>
     <div>
         <!--email-->
         <label>Enter Email ID</label>
-        <input type="email" name="email"placeholder="Enter Email ID">
+        <input type="email" name="email"placeholder="Enter Email ID"required>
     </div>
     <br>
         
         <div>
             <label>Enter Password </label>
-            <input type="password" name="password"placeholder="Enter Password">
+            <input type="password" name="password"placeholder="Enter Password"required minlength="8"maxlength="15">
         </div>
         <br>
 
@@ -40,6 +44,16 @@
             <input type="radio" name="gender">Female
             <input type="radio" name="gender">Others
         </div>
+        <br>
+        <div>
+            <label>Select Course</label>
+            <input type="checkbox"disabled>Java
+            <input type="checkbox">python
+            <input type="checkbox">DotNet
+            
+
+        </div>
+        <br>
 
         <div>
             <label>Select City</label>
@@ -51,8 +65,35 @@
                 <option>Bagalkot</option>
             </select>
         </div>
+        <br>
+        <div>
+            <label>Select Date Of Birth</label>
+            <input type="date" name="Date of Birth" placeholder="Enter  Date Of Birth"required>
+        </div>
+        <br>
+        <div>
+            <label>Enter PhoneNumber</label>
+                <input type="tel" name="PhoneNumber" placeholder="+91 8549823719"minlength="6"maxlength="10">
+        </div>
+        <br>
+        <div>
+            <label>Enter Address</label>
+            <textarea rows="10" cols="10"required></textarea>
+        </div>
+        <div>
+            <label>Select File/Resume</label>
+            <input type="file" name="uploadFile" required>
+        </div>
+        <div>
+            <!--<input type="submit"-->
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
 
-        <!--dateofBirth,MobileNumber,address(write these within a table)-->
+       <!--validation-->
+       <!--html5 validation
+          how to turnoff autosuggestion in html5
+          -->
     </form>
     
 </body>
