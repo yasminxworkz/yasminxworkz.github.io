@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Cascading StyleSheet</title>
+        <!--Syntax of CSS(cascading stylesheet)
+      selector{
+          property : value;
+      }-->
+      <style>
+          h1,h2 {
+              color:green;
+              font-size: 80px;
+              text-transform: uppercase;
+          }
+          .classSelector{
+              color:blue;
+              font-size: 80px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              text-decoration:underline
+          }
+          #header {
+               color:crimson;
+               font-size: 50px;
+          }
+          
+    
+      </style>
+
+    </head>
+    <body>
+        <h1>Cascading StyleSheet</h1>
+        <h2 id="header">web technology</h2>
+        <h1 class="classSelector">class selector</h1>
+        <h1 class="classSelector">classSelector</h1><!--change color-->
+        <h1>classSelector</h1><!--change color-->
+        <h1>classSelector</h1><!--change color-->
+        
+        <h3 class="classSelector" id="header">Id Selector</h3>
+
+        <!--<h2>Cascading Stylesheet</h2>  css - size:200px - lowercase 
+        <h3>Cascading Stylesheet </h3> css color- lowercase-->
+
+        <!--different selector
+        1.element selector
+        2.grouping selector
+        3.class selector
+        -->
+    </body>
+</html>
