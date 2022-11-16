@@ -1,0 +1,52 @@
+.rect {
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    padding:20px
+  }
+
+  .rect1 {
+    
+    width: 200px;
+    height: 10px;
+    border: 1px solid red;
+    padding:5px
+   
+  }
+
+  .rect2 {
+    
+    width: 125px;
+    height: 125px;
+    border: 1px solid purple;
+    margin:60px;
+   
+  }
+  
+  .rect3{
+    
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+    display: inline-block;
+   
+  }
+  
+  .rect4{
+    
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+    display: inline-block;
+  }
+
+  body {
+    background-image:url("D:\\yasminxworkz.github.io\\wallpaper.1.jpg");
+   
+    background-repeat: no-repeat ;
+    background-size: cover;
+  }
+
+  /* CSS Combinator* / 
+ 
+  

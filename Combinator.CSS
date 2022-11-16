@@ -1,0 +1,93 @@
+/*descendent selector*/
+div p {
+    color:blue;
+}
+
+/*child selector*/
+
+div > p {
+    color: red;
+}
+
+/* Adjacent Sibling Selector */
+div + p {
+    color:green;
+}
+
+/*general sibling selector*/
+div ~ p{
+   /* color:rgb(243, 123, 123)*/
+   color:#24a368;
+  
+}
+
+/*  Color Properly*/
+
+.static {
+    position: static;/* if static keyword is used then the position will not change.it will remain static*/
+    top:100px;
+}
+
+.relative {
+    
+    right: -400px;
+    top: -240px;
+    position:relative;
+    color:chocolate;
+}
+
+.absolute {
+    left: 400px;
+    bottom: 0;
+    right:0;
+    position: absolute;
+
+
+}
+
+.topleft{
+    position:absolute;
+    top: 0;
+    left: 5px;
+    color: aliceblue;
+
+}
+
+.imageparent{
+    position:relative;
+    width: 500px;
+    top: 30px;
+    
+}
+
+
+/* .imgCircle{
+    border-radius: 50%;
+} */
+
+ /* body{
+    margin:0;
+}  */
+
+.fixed{
+    position: fixed;
+     top:0;
+    right:0;
+    background-color: orange ;  
+}
+.sticky{
+    position:sticky;
+    top:0;
+    background-color:darkred;
+}
+
+ul {
+    list-style-type:circle;
+    background-color: yellow;
+}
+
+li {
+    padding: 3px;
+    color: rgb(245, 17, 9);
+    margin:0;
+}

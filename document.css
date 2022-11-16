@@ -1,0 +1,24 @@
+.container{
+    height:auto;
+    position: relative;
+    width: 800px;
+    background-color: yellow;
+}
+.container img{
+    width:100%;
+    display: block;
+}
+
+.virat kohli{
+    position: absolute;
+    right: -400px;
+    top: -240px;
+    font: 20px;
+}
+
+.Finn Allen{
+    position: absolute;
+    top: 5px;
+   right: 5px;
+    font: 20px;
+}

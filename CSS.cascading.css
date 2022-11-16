@@ -1,0 +1,15 @@
+h1,h2 {
+    color:green;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.classSelector{
+    color:blue;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline
+}
+#header {
+     color:crimson;
+     font-size: 50px;
+}

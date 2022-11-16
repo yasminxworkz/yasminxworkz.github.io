@@ -1,0 +1,30 @@
+.box {
+   /* 
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    scroll-padding-right: 60px;*/
+    
+    
+    
+    
+    padding: 100px 50px 25px 10px;
+    border: 4px dotted rebeccapurple;
+    margin: 20px;
+    background-color:palevioletred;
+}
+.rect{
+    border:3px solid green;
+    height:150px;
+    width:500px;
+    background-image: url("D:\\yasminxworkz.github.io\\wallpaper.jpg");
+    
+}
+
+.container{
+    background :linear-gradient( #ff0000,#fef800)
+    box-shadow
+}
+
+
+
