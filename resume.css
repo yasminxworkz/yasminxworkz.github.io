@@ -1,0 +1,18 @@
+
+body{
+    padding:5px;
+    border: solid black;
+}
+
+img{
+    position: absolute;
+    right: 300px;
+    width: 150px;
+    height: 200px;
+    top: 40px;
+}
+.regards{
+    position: absolute;
+    right: 250px;
+    top: 1120px;
+}
