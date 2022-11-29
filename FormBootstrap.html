@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>REgistration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap.css">
+  
+</head>
+<body>
+
+<div class="container" >
+  <h2>Registration Form</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="text" placeholder="Enter First Name" name="Name">
+      </div>
+    
+   <div class="col">
+        <input type="text" class="form-control" id="text" placeholder="Enter last Name" name="Name">
+      </div>
+
+    </div>
+   <br>
+
+    <div class="row">
+      
+      <div class="col">
+        <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="col">
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+      </div>
+       
+    </div>
+    <br>
+    <div class="form-group">
+      <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="text" placeholder="Enter Age" name="Age">
+      </div>
+    
+   <div class="col">
+        <input type="tel" class="form-control" id="tel" placeholder="Enter Contact Number" name="Name">
+      </div>
+
+    </div>
+   <br>
+
+   
+  <div class="form-group">
+    
+    <label for="sel1">Select City </label>
+    <select class="form-control" id="sel1" name="sellist1">
+      <option>bangalore</option>
+      <option>gadag</option>
+      <option>hopset</option>
+      <option>hasan</option>
+    </select>
+    <br>
+<div>
+    <label for="sel2">Qualification </label>
+    <select class="form-control" id="sel1"  name="sellist2">
+      <option>BCA</option>
+      <option>BE</option>
+      <option>MCA</option>
+      <option>MSc</option>
+    </select>
+  </div>
+  </div>
+  
+  
+  <br>
+  <div class="form-group">
+    <label for="sel1">Select Gender:</label>
+     <div>
+    <label class="form-check-label" for="radio1">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>male
+    </label>
+  </div>
+    <div>
+    <label class="form-check-label" for="radio1">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>female
+    </label>
+  </div>
+  <div>
+    <label class="form-check-label" for="radio1">
+      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>others
+    </label>
+  </div>
+
+  
+   
+
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
